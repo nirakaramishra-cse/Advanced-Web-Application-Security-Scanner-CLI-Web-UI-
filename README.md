@@ -43,12 +43,20 @@ This project is a lightweight yet powerful scanner that helps developers and sec
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/scan_ui.png" alt="Scan UI" width="600"><br>
-  <em>Figure 1: Web UI to scan target URL</em><br><br>
-  <img src="screenshots/chart_pie.png" alt="Chart" width="600"><br>
-  <em>Figure 2: Vulnerability severity visualization</em><br><br>
-  <img src="screenshots/log_export.png" alt="Export" width="600"><br>
-  <em>Figure 3: Log export feature in Excel</em>
+    <img src="screenshots/scan_ui .png" alt="Scan UI" width="800"><br>
+  <em>Figure 1: Web UI to scan dashboard</em><br><br>
+  <img src="screenshots/scan_ui 1.png" alt="Scan UI" width="800"><br>
+  <em>Figure 2: Web UI to scan target URL</em><br><br>
+  <img src="screenshots/chart_pie .png" alt="Chart" width="800"><br>
+  <em>Figure 3: Vulnerability severity visualization</em><br><br>
+  <img src="screenshots/log_export .png" alt="Export" width="800"><br>
+  <em>Figure 4: Log export feature in Excel</em>
+  <img src="screenshots/filter logs 1.png" alt="Export" width="800"><br>
+  <em>Figure 5: Log serch feature in Filter</em>
+  <img src="screenshots/Sample CLI Output.png" alt="Export" width="800"><br>
+  <em>Figure 6: CLI Scan Testing Output</em>
+  <img src="screenshots/logs page.png" alt="Export" width="800"><br>
+  <em>Figure 7: Previous Scan History visualization</em>
 </p>
 
 ---
@@ -168,9 +176,9 @@ Timestamp, URL, Scan Type, Issue Type, Details
 
 ---
 
-# 🤝 Contributing to Advanced Web Application Security Scanner
+# 🤝 Contributing to this 
 
-We welcome contributions! 👏  
+We welcome contributions!
 This project is built to help students and beginners learn web application security through hands-on scanning tools.
 
 - Fork the repo
