@@ -1,0 +1,44 @@
+Timestamp,URL,ScanType,IssueType,Details
+2025-06-20 19:59:54,https://example.com,URL Status,Status,200 - OK
+2025-06-20 20:14:18, https://xss-game.appspot.com/,URL Status,Status,200 - OK
+2025-06-20 20:14:19, https://xss-game.appspot.com/,Security Headers,Missing,"Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+2025-06-20 20:14:20, https://xss-game.appspot.com/,SQL Injection,Vulnerable,https://xss-game.appspot.com/?id=%27+OR+%271%27%3D%271
+2025-06-20 20:14:21, https://xss-game.appspot.com/,Form Scanner,Forms Found,0
+2025-06-20 20:19:28,https://httpbin.org,URL Status,Status,200 - OK
+2025-06-20 20:19:30,https://httpbin.org,Security Headers,Missing,"Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+2025-06-20 20:19:39,https://httpbin.org,Form Scanner,Forms Found,0
+
+2025-06-20 20:39:11,https://example.com,URL Status,Status Code,200 - OK
+2025-06-20 20:39:13,https://example.com,Security Headers,Missing Headers,"Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+2025-06-20 20:39:18,https://example.com,Form Scanner,Forms Found,0
+2025-06-20 20:43:37,https://xss-game.appspot.com,URL Status,Status Code,200 - OK
+2025-06-20 20:43:38,https://xss-game.appspot.com,Security Headers,Missing Headers,"Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+2025-06-20 20:43:39,https://xss-game.appspot.com,SQL Injection,Vulnerable,https://xss-game.appspot.com/?id=%27+OR+%271%27%3D%271
+2025-06-20 20:43:40,https://xss-game.appspot.com,Form Scanner,Forms Found,0
+2025-06-20 20:44:58,https://httpbin.org,URL Status,Status Code,200 - OK
+2025-06-20 20:45:02,https://httpbin.org,Security Headers,Missing Headers,"Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+2025-06-20 20:45:19,https://httpbin.org,Form Scanner,Forms Found,0
+2025-06-20 20:54:47,https://testphp.vulnweb.com,URL Status,Error,"HTTPSConnectionPool(host='testphp.vulnweb.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7ff307748ad0>, 'Connection to testphp.vulnweb.com timed out. (connect timeout=10)'))"
+2025-06-23 06:14:02,https://app.diagrams.net,URL Status,Status Code,200 - OK
+2025-06-23 06:14:03,https://app.diagrams.net,Security Headers,Missing Headers,X-Frame-Options
+2025-06-23 06:14:05,https://app.diagrams.net,Form Scanner,Forms Found,0
+2025-06-23 06:16:23,https://app.diagrams.net,URL Status,Status,200 - OK
+2025-06-23 06:16:24,https://app.diagrams.net,Security Headers,Missing,X-Frame-Options
+2025-06-23 06:16:27,https://app.diagrams.net,Form Scanner,Forms Found,0
+2025-06-23 06:18:11,https://portswigger.net/web-security/sql-injection/cheat-sheet,URL Status,Status,200 - OK
+2025-06-23 06:18:12,https://portswigger.net/web-security/sql-injection/cheat-sheet,Security Headers,Missing,Referrer-Policy
+2025-06-23 06:18:17,https://portswigger.net/web-security/sql-injection/cheat-sheet,SQL Injection,Vulnerable,https://portswigger.net/web-security/sql-injection/cheat-sheet?id=%27+OR+%271%27%3D%271
+2025-06-23 06:18:18,https://portswigger.net/web-security/sql-injection/cheat-sheet,Form Scanner,Forms Found,0
+2025-06-23 06:18:20,https://portswigger.net/web-security/sql-injection/cheat-sheet,Cookies,Missing Flags,"{'Secure': False, 'HttpOnly': False}"
+2025-06-23 06:23:42,https://www.crummy.com/software/BeautifulSoup/,URL Status,Status Code,200 - OK
+2025-06-23 06:23:43,https://www.crummy.com/software/BeautifulSoup/,Security Headers,Missing Headers,"Content-Security-Policy, X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, Referrer-Policy"
+2025-06-23 06:23:45,https://www.crummy.com/software/BeautifulSoup/,Mixed Content,Insecure Links,16 found
+2025-06-23 06:23:49,https://www.crummy.com/software/BeautifulSoup/,SQL Injection,Vulnerable,https://www.crummy.com/software/BeautifulSoup/?id=%27+OR+%271%27%3D%271
+2025-06-23 06:23:50,https://www.crummy.com/software/BeautifulSoup/,Form Scanner,Forms Found,1
+2025-06-23 06:43:38,https://infosec.mozilla.org/guidelines/web_security,URL Status,Status,200 - OK
+2025-06-23 06:43:39,https://infosec.mozilla.org/guidelines/web_security,Security Headers,Missing,Referrer-Policy
+2025-06-23 06:43:40,https://infosec.mozilla.org/guidelines/web_security,SQL Injection,Vulnerable,https://infosec.mozilla.org/guidelines/web_security?id=%27+OR+%271%27%3D%271
+2025-06-23 06:43:40,https://infosec.mozilla.org/guidelines/web_security,Form Scanner,Forms Found,0
+2025-06-23 06:48:38,https://owasp.org/www-project-top-ten/,URL Status,Status Code,200 - OK
+2025-06-23 06:48:39,https://owasp.org/www-project-top-ten/,Mixed Content,Insecure Links,1 found
+2025-06-23 06:48:41,https://owasp.org/www-project-top-ten/,Form Scanner,Forms Found,0

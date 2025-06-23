@@ -1,0 +1,33 @@
+beautifulsoup4==4.13.4     # HTML parser used for analyzing forms and mixed content
+blinker==1.9.0
+certifi==2025.6.15
+charset-normalizer==3.4.2
+click==8.2.1
+docopt==0.6.2
+et_xmlfile==2.0.0
+
+Flask==3.1.1              # Web framework for creating the web interface
+idna==3.10
+itsdangerous==2.2.0
+Jinja2==3.1.6 
+ 
+lxml==5.4.0                  # Optional fast parser for BeautifulSoup (improves performance)
+MarkupSafe==3.0.2
+numpy==2.3.0
+openpyxl==3.1.5              # Enables exporting logs to Excel (.xlsx) format
+
+pandas==2.3.0                # Used for reading/writing CSV and Excel files (logs)
+python-dateutil==2.9.0.post0
+pytz==2025.2
+
+requests==2.32.4          # For making HTTP requests to scan target URLs
+six==1.17.0
+soupsieve==2.7 
+ 
+termcolor==3.1.0           # Adds colored output in CLI mode for better visibility
+typing_extensions==4.14.0
+tzdata==2025.2
+urllib3==2.5.0
+Werkzeug==3.1.3
+yarg==0.1.10
+
