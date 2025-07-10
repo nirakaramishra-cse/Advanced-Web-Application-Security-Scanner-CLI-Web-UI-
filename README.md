@@ -193,7 +193,7 @@ This project is built to help students and beginners learn web application secur
 Created by **Nirakara Mishra**
 - 🎓 B.Tech in Computer Science & Engineering
 - 🎓 Specialization: Cybersecurity
-- **🌐 Portfolio:**  [https://nirakaramishra-cse.github.io/Portfolio] 
-- **🔗 LinkedIn:**  [https://www.linkedin.com/in/nirakaramishra-cse] 
-- **🔗 GitHub:**  [https://github.com/nirakaramishra-cse] 
+- 🌐 [Portfolio](https://nirakaramishra-cse.github.io/Portfolio)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/nirakaramishra-cse)  
+- 🔗 [GitHub](https://github.com/nirakaramishra-cse)   
 
